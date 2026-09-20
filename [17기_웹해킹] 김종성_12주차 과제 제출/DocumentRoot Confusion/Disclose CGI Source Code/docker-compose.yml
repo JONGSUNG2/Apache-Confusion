@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  cgi_test:
+    build: .
+    container_name: cgi_confusion_test
+    ports:
+      - "8080:80"

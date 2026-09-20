@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  proxy_test:
+    build: .
+    container_name: apache_proxy_bypass_lab
+    ports:
+      - "8080:80"

